@@ -1,0 +1,117 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: "Times New Roman", serif;
+    background-color: white;
+}
+
+.doctor {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    min-height: 100vh;
+}
+
+.doctor-image {
+    width: 35%;
+}
+
+.doctor-image img {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+}
+
+.Doc {
+    width: 65%;
+    padding: 30px 60px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 34px;
+    margin: 0 0 20px;
+}
+
+hr {
+    border: none;
+    border-top: 2px solid red;
+    width: 75%;
+    margin-bottom: 35px;
+}
+
+.doc {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.doc > label:first-child {
+    width: 120px;
+    font-size: 17px;
+}
+
+input[type="date"],
+input[type="time"],
+input[type="tel"],
+input[type="text"] {
+    height: 27px;
+    border: 1px solid #999;
+    padding: 4px;
+    font-size: 14px;
+}
+
+input[type="date"],
+input[type="time"],
+input[type="tel"] {
+    width: 200px;
+}
+
+.name,
+.name-inputs {
+    display: flex;
+    gap: 22px;
+}
+
+.name input,
+.name-inputs input {
+    width: 200px;
+}
+
+.Gender {
+    display: flex;
+    align-items: center;
+}
+
+input[type="radio"] {
+    accent-color: #1683e8;
+}
+
+textarea {
+    width: 350px;
+    height: 75px;
+}
+
+.checkboxes {
+    display: flex;
+    flex-direction: column;
+}
+
+.checkboxes p {
+    margin: 0 0 5px;
+}
+
+.checkboxes label {
+    margin-bottom: 3px;
+}
+
+
+button {
+    margin-left: 120px;
+    padding: 3px 10px;
+    font-size: 14px;
+    cursor: pointer;
+}
